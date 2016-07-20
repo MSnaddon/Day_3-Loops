@@ -11,13 +11,15 @@ def sum_array(array)
   return result
 end
 
-def find_item(array, find)
+def find_item?(array, find)
   return array.include?(find)
 end
 
-def teacher_wallets(name, value)
+def teacher_wallets(name)
   return name.keys.first
 end
+
+def array_of_capitals
 
 
 
