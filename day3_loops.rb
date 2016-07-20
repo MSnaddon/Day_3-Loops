@@ -3,3 +3,22 @@ def size_of_two_arrays(prices, costs)
   return result
 end
 
+def sum_array(array)
+  result = 0
+  for number in array
+    result += number
+  end
+  return result
+end
+
+def find_item(array, find)
+  return array.include?(find)
+end
+
+def teacher_wallets(name, value)
+  return name.keys.first
+end
+
+
+
+
