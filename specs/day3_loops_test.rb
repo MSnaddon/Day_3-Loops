@@ -51,7 +51,7 @@ class Functions_Practice < MiniTest::Test
         population: 56
       }
     }
-    result = PLACEHOLDERMETHOD(countries)
+    result = array_of_capitals(countries)
     assert_equal([ 'London', 'Paris', 'Rome' ],result)
   end
 end
