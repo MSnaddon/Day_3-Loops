@@ -20,6 +20,7 @@ def teacher_wallets(name)
 end
 
 def array_of_capitals
+  
 
 
 
