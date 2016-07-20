@@ -19,9 +19,10 @@ def teacher_wallets(name)
   return name.keys.first
 end
 
-def array_of_capitals
-  
-
-
-
-
+def array_of_capitals(hash)
+  cap_array = []
+  for (*, value) in hash
+    cap_array.push(value[:capital])
+  end
+  return cap_array
+end
