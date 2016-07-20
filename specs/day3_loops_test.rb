@@ -54,5 +54,6 @@ class Functions_Practice < MiniTest::Test
      result = array_of_capitals(countries)
      assert_equal([ 'London', 'Paris', 'Rome' ],result)
    end
+
 end
 
